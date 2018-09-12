@@ -1,0 +1,6 @@
+node_modules
+bower_components
+.DS_Store
+_archive*
+# debugging compiled - this may change
+src/plugin/iframe_root/public

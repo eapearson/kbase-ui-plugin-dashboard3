@@ -1,0 +1,28 @@
+## Another Dashboard Plugin
+---
+    package:
+        name: dashboard3
+        author: Erik Pearson
+        description: Another New Dashboard
+    source:
+        styles:
+    install:
+        widgets:
+            -
+                id: dashboard3_panel
+                module: panel 
+                type: es6
+        routes:
+            -
+                path: [dashboard3]
+                queryParams:
+                    q: {}
+                widget: dashboard3_panel
+                authorization: false
+        menu:
+            -
+                name: dashboard3
+                path: [dashboard3]
+                label: Dashboard
+                icon: dashboard 
+                beta: true

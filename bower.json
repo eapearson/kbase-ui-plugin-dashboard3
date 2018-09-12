@@ -1,0 +1,25 @@
+{
+    "name": "kbase-ui-plugin-dashboard3",
+    "description": "Dashboard version 3",
+    "keywords": [
+        "kbase", "widget"
+    ],
+    "author": [
+        "eapearson@lbl.gov"
+    ],
+    "moduleType": "kbase-ui-plugin",
+    "main": "src/plugin/config.yml",
+    "ignore": [
+        ".gitignore"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kbase/kbase-ui-plugin-dashboard3"
+    },
+    "dependencies": {
+        "kbase-common-es6": "^0.10.0"
+    },
+    "devDependencies": {
+    },
+    "license": "SEE LICENSE IN LICENSE"
+}
